@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>python3</id>
+    <version>3.11.0</version>
+    <title>Python 3.x</title>
+    <owners>AshmitNR</owners>
+    <authors>Python Software Foundation</authors>
+    <projectUrl>http://www.python.org/</projectUrl>
+    <iconUrl>https://github.com/AshmitNR/Choco_packages.git</iconUrl>
+    <tags>python3</tags>
+    <summary>Python 3.x is a programming language that lets you work more quickly and integrate your systems more effectively</summary>
+    <description>Internal use packages</description>
+    <dependencies>
+      <dependency id="vcredist2015" version="14.0.24215.20170201" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
